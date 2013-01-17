@@ -1,0 +1,5 @@
+#!/bin/sh
+
+path="$HOME/Library/Application Support/LightroomTether/"
+mkdir "$path"
+echo "$path"

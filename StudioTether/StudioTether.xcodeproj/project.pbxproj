@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		6406793B0E957065006D9ED6 /* PreferencePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6406793A0E957065006D9ED6 /* PreferencePanel.m */; };
+		640679CD0E9581FF006D9ED6 /* StudioTether.icns in Resources */ = {isa = PBXBuildFile; fileRef = 640679CC0E9581FF006D9ED6 /* StudioTether.icns */; };
+		640ED96C0E97AF560049C46D /* CameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 640ED96B0E97AF560049C46D /* CameraController.m */; };
+		640ED9B90E97B3F30049C46D /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 640ED9B80E97B3F30049C46D /* Carbon.framework */; };
+		640EDA8A0E97C6E80049C46D /* CameraWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 640EDA890E97C6E80049C46D /* CameraWindow.m */; };
+		6445DB300F21DBF400353144 /* CameraPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6445DB2F0F21DBF400353144 /* CameraPanel.m */; };
+		647DA6B30F27955200FE7F66 /* NikonWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 647DA6B20F27955200FE7F66 /* NikonWindow.m */; };
+		647DA8A90F2AA35C00FE7F66 /* GreenPopupButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 647DA8A80F2AA35C00FE7F66 /* GreenPopupButton.m */; };
+		647DA9610F2B4FC400FE7F66 /* ActivityLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 647DA9600F2B4FC400FE7F66 /* ActivityLight.m */; };
+		647DA97E0F2B52C800FE7F66 /* ShutterReleaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 647DA97D0F2B52C800FE7F66 /* ShutterReleaseCell.m */; };
+		648A4A760E98304400BCDFE4 /* ICACamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 648A4A730E98304400BCDFE4 /* ICACamera.m */; };
+		648A4A770E98304400BCDFE4 /* ICACameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 648A4A750E98304400BCDFE4 /* ICACameraController.m */; };
+		648F226E0F3D99DE00D33192 /* LiveViewImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 648F226D0F3D99DE00D33192 /* LiveViewImageView.m */; };
+		6494993F0F3C4A82006F58C9 /* minimize.png in Resources */ = {isa = PBXBuildFile; fileRef = 6494993E0F3C4A82006F58C9 /* minimize.png */; };
+		64A716D40F3AF70300207B6C /* System Preferences.app in Sources */ = {isa = PBXBuildFile; fileRef = 64A716D30F3AF70300207B6C /* System Preferences.app */; };
+		64A716DA0F3AF76A00207B6C /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A716D90F3AF76A00207B6C /* ScriptingBridge.framework */; };
+		64A716E60F3AF83100207B6C /* Adobe Lightroom 2.app in Sources */ = {isa = PBXBuildFile; fileRef = 64A716E50F3AF83100207B6C /* Adobe Lightroom 2.app */; };
+		64A716EF0F3AF8D000207B6C /* System Events.app in Sources */ = {isa = PBXBuildFile; fileRef = 64A716EE0F3AF8D000207B6C /* System Events.app */; };
+		64A717260F3AFCC100207B6C /* StudioTether.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 64A717250F3AFCC100207B6C /* StudioTether.sdef */; };
+		64A717730F3B0B8B00207B6C /* ScriptCommand_Preferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A717720F3B0B8B00207B6C /* ScriptCommand_Preferences.m */; };
+		64A718600F3B263500207B6C /* ScriptCommand_Locked.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A7185F0F3B263500207B6C /* ScriptCommand_Locked.m */; };
+		64AD5A640F3A3C41009A233A /* LightroomTether.lrplugin in Copy Files LightroomTether */ = {isa = PBXBuildFile; fileRef = 64AD5A580F3A3C41009A233A /* LightroomTether.lrplugin */; };
+		64AD5ADA0F3A5078009A233A /* LightroomInstall.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AD5AD90F3A5078009A233A /* LightroomInstall.m */; };
+		64BAE1780F38E2E0005DB4C7 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BAE1770F38E2E0005DB4C7 /* Sparkle.framework */; };
+		64BAE1870F38E346005DB4C7 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 64BAE1770F38E2E0005DB4C7 /* Sparkle.framework */; };
+		64BAE2570F3A10A0005DB4C7 /* LightroomDragInstall.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BAE2560F3A10A0005DB4C7 /* LightroomDragInstall.m */; };
+		64D7F8000E97CFD2009D83FE /* NikonWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64D7F7FF0E97CFD2009D83FE /* NikonWindow.xib */; };
+		64D7FA470E980A06009D83FE /* CameraWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64D7FA460E980A06009D83FE /* CameraWindow.xib */; };
+		64EA889A0F2B7B2900471F52 /* ICANikonCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 64EA88990F2B7B2900471F52 /* ICANikonCamera.m */; };
+		64FD60120F516F7B0040216B /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 64FD60110F516F7B0040216B /* dsa_pub.pem */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		64A716CB0F3AF63F00207B6C /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.app";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(DERIVED_FILES_DIR)/$(INPUT_FILE_BASE).h",
+			);
+			script = "sdef \"$INPUT_FILE_PATH\" | sdp -fh -o \"$DERIVED_FILES_DIR\" --basename \"$INPUT_FILE_BASE\" --bundleid `defaults  read \"$INPUT_FILE_PATH/Contents/Info\" CFBundleIdentifier`";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		64AD5A750F3A3D0B009A233A /* Copy Files LightroomTether */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = LightroomTether;
+			dstSubfolderSpec = 7;
+			files = (
+				64AD5A640F3A3C41009A233A /* LightroomTether.lrplugin in Copy Files LightroomTether */,
+			);
+			name = "Copy Files LightroomTether";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BAE1850F38E328005DB4C7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				64BAE1870F38E346005DB4C7 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		640679390E957065006D9ED6 /* PreferencePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencePanel.h; sourceTree = "<group>"; };
+		6406793A0E957065006D9ED6 /* PreferencePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencePanel.m; sourceTree = "<group>"; };
+		640679CC0E9581FF006D9ED6 /* StudioTether.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = StudioTether.icns; sourceTree = "<group>"; };
+		64067AF90E978043006D9ED6 /* NikonWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NikonWindow.h; sourceTree = "<group>"; };
+		640ED96A0E97AF560049C46D /* CameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraController.h; sourceTree = "<group>"; };
+		640ED96B0E97AF560049C46D /* CameraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraController.m; sourceTree = "<group>"; };
+		640ED9B80E97B3F30049C46D /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		640EDA880E97C6E80049C46D /* CameraWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraWindow.h; sourceTree = "<group>"; };
+		640EDA890E97C6E80049C46D /* CameraWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraWindow.m; sourceTree = "<group>"; };
+		6445DB2E0F21DBF400353144 /* CameraPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraPanel.h; sourceTree = "<group>"; };
+		6445DB2F0F21DBF400353144 /* CameraPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraPanel.m; sourceTree = "<group>"; };
+		647DA6B20F27955200FE7F66 /* NikonWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NikonWindow.m; sourceTree = "<group>"; };
+		647DA8A70F2AA35C00FE7F66 /* GreenPopupButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenPopupButton.h; sourceTree = "<group>"; };
+		647DA8A80F2AA35C00FE7F66 /* GreenPopupButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenPopupButton.m; sourceTree = "<group>"; };
+		647DA95F0F2B4FC400FE7F66 /* ActivityLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityLight.h; sourceTree = "<group>"; };
+		647DA9600F2B4FC400FE7F66 /* ActivityLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityLight.m; sourceTree = "<group>"; };
+		647DA97C0F2B52C800FE7F66 /* ShutterReleaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShutterReleaseCell.h; sourceTree = "<group>"; };
+		647DA97D0F2B52C800FE7F66 /* ShutterReleaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShutterReleaseCell.m; sourceTree = "<group>"; };
+		648A4A720E98304400BCDFE4 /* ICACamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICACamera.h; path = CameraLib/ICACamera.h; sourceTree = "<group>"; };
+		648A4A730E98304400BCDFE4 /* ICACamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ICACamera.m; path = CameraLib/ICACamera.m; sourceTree = "<group>"; };
+		648A4A740E98304400BCDFE4 /* ICACameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICACameraController.h; path = CameraLib/ICACameraController.h; sourceTree = "<group>"; };
+		648A4A750E98304400BCDFE4 /* ICACameraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ICACameraController.m; path = CameraLib/ICACameraController.m; sourceTree = "<group>"; };
+		648F226C0F3D99DE00D33192 /* LiveViewImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveViewImageView.h; sourceTree = "<group>"; };
+		648F226D0F3D99DE00D33192 /* LiveViewImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveViewImageView.m; sourceTree = "<group>"; };
+		6494993E0F3C4A82006F58C9 /* minimize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minimize.png; sourceTree = "<group>"; };
+		64A716D30F3AF70300207B6C /* System Preferences.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = "System Preferences.app"; path = "/Applications/System Preferences.app"; sourceTree = "<absolute>"; };
+		64A716D90F3AF76A00207B6C /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = /System/Library/Frameworks/ScriptingBridge.framework; sourceTree = "<absolute>"; };
+		64A716E50F3AF83100207B6C /* Adobe Lightroom 2.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = "Adobe Lightroom 2.app"; path = "/Applications/Adobe Lightroom 2.app"; sourceTree = "<absolute>"; };
+		64A716EE0F3AF8D000207B6C /* System Events.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = "System Events.app"; path = "/System/Library/CoreServices/System Events.app"; sourceTree = "<absolute>"; };
+		64A717250F3AFCC100207B6C /* StudioTether.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.sdef; path = StudioTether.sdef; sourceTree = "<group>"; };
+		64A717710F3B0B8B00207B6C /* ScriptCommand_Preferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScriptCommand_Preferences.h; sourceTree = "<group>"; };
+		64A717720F3B0B8B00207B6C /* ScriptCommand_Preferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScriptCommand_Preferences.m; sourceTree = "<group>"; };
+		64A7185E0F3B263500207B6C /* ScriptCommand_Locked.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScriptCommand_Locked.h; sourceTree = "<group>"; };
+		64A7185F0F3B263500207B6C /* ScriptCommand_Locked.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScriptCommand_Locked.m; sourceTree = "<group>"; };
+		64AD5A580F3A3C41009A233A /* LightroomTether.lrplugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LightroomTether.lrplugin; path = ../LightroomTether.lrplugin; sourceTree = SOURCE_ROOT; };
+		64AD5AD80F3A5078009A233A /* LightroomInstall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightroomInstall.h; sourceTree = "<group>"; };
+		64AD5AD90F3A5078009A233A /* LightroomInstall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightroomInstall.m; sourceTree = "<group>"; };
+		64BAE1770F38E2E0005DB4C7 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		64BAE19D0F38E460005DB4C7 /* StudioTether_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudioTether_Prefix.pch; sourceTree = "<group>"; };
+		64BAE2550F3A10A0005DB4C7 /* LightroomDragInstall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightroomDragInstall.h; sourceTree = "<group>"; };
+		64BAE2560F3A10A0005DB4C7 /* LightroomDragInstall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightroomDragInstall.m; sourceTree = "<group>"; };
+		64D7F7FF0E97CFD2009D83FE /* NikonWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NikonWindow.xib; sourceTree = "<group>"; };
+		64D7FA460E980A06009D83FE /* CameraWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraWindow.xib; sourceTree = "<group>"; };
+		64EA88980F2B7B2900471F52 /* ICANikonCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICANikonCamera.h; path = CameraLib/ICANikonCamera.h; sourceTree = "<group>"; };
+		64EA88990F2B7B2900471F52 /* ICANikonCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ICANikonCamera.m; path = CameraLib/ICANikonCamera.m; sourceTree = "<group>"; };
+		64FD60110F516F7B0040216B /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* StudioTether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudioTether.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				640ED9B90E97B3F30049C46D /* Carbon.framework in Frameworks */,
+				64BAE1780F38E2E0005DB4C7 /* Sparkle.framework in Frameworks */,
+				64A716DA0F3AF76A00207B6C /* ScriptingBridge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64A716D90F3AF76A00207B6C /* ScriptingBridge.framework */,
+				64BAE1770F38E2E0005DB4C7 /* Sparkle.framework */,
+				640ED9B80E97B3F30049C46D /* Carbon.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* StudioTether.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* StudioTether */ = {
+			isa = PBXGroup;
+			children = (
+				64AD5AC20F3A4B15009A233A /* LightroomTether */,
+				29B97315FDCFA39411CA2CEA /* Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = StudioTether;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				64A717700F3B0B7900207B6C /* Script */,
+				64A7161B0F3A5FB900207B6C /* Controls */,
+				64D7FA5B0E980D01009D83FE /* CameraLib */,
+				64D7FA040E98045E009D83FE /* Window */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				64BAE19D0F38E460005DB4C7 /* StudioTether_Prefix.pch */,
+				640679390E957065006D9ED6 /* PreferencePanel.h */,
+				6406793A0E957065006D9ED6 /* PreferencePanel.m */,
+				640ED96A0E97AF560049C46D /* CameraController.h */,
+				640ED96B0E97AF560049C46D /* CameraController.m */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64FD60110F516F7B0040216B /* dsa_pub.pem */,
+				6494993E0F3C4A82006F58C9 /* minimize.png */,
+				64D7FA4D0E980A15009D83FE /* Window */,
+				640679CC0E9581FF006D9ED6 /* StudioTether.icns */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				64A717250F3AFCC100207B6C /* StudioTether.sdef */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64A7161B0F3A5FB900207B6C /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				647DA8A70F2AA35C00FE7F66 /* GreenPopupButton.h */,
+				647DA8A80F2AA35C00FE7F66 /* GreenPopupButton.m */,
+				647DA95F0F2B4FC400FE7F66 /* ActivityLight.h */,
+				647DA9600F2B4FC400FE7F66 /* ActivityLight.m */,
+				647DA97C0F2B52C800FE7F66 /* ShutterReleaseCell.h */,
+				647DA97D0F2B52C800FE7F66 /* ShutterReleaseCell.m */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		64A7161C0F3A5FEB00207B6C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				64AD5AD80F3A5078009A233A /* LightroomInstall.h */,
+				64AD5AD90F3A5078009A233A /* LightroomInstall.m */,
+				64BAE2550F3A10A0005DB4C7 /* LightroomDragInstall.h */,
+				64BAE2560F3A10A0005DB4C7 /* LightroomDragInstall.m */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		64A7161D0F3A5FF600207B6C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64A716EE0F3AF8D000207B6C /* System Events.app */,
+				64A716E50F3AF83100207B6C /* Adobe Lightroom 2.app */,
+				64A716D30F3AF70300207B6C /* System Preferences.app */,
+				64AD5A580F3A3C41009A233A /* LightroomTether.lrplugin */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		64A717700F3B0B7900207B6C /* Script */ = {
+			isa = PBXGroup;
+			children = (
+				64A717710F3B0B8B00207B6C /* ScriptCommand_Preferences.h */,
+				64A717720F3B0B8B00207B6C /* ScriptCommand_Preferences.m */,
+				64A7185E0F3B263500207B6C /* ScriptCommand_Locked.h */,
+				64A7185F0F3B263500207B6C /* ScriptCommand_Locked.m */,
+			);
+			name = Script;
+			sourceTree = "<group>";
+		};
+		64AD5AC20F3A4B15009A233A /* LightroomTether */ = {
+			isa = PBXGroup;
+			children = (
+				64A7161C0F3A5FEB00207B6C /* Sources */,
+				64A7161D0F3A5FF600207B6C /* Resources */,
+			);
+			name = LightroomTether;
+			sourceTree = "<group>";
+		};
+		64D7FA040E98045E009D83FE /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				6445DB2E0F21DBF400353144 /* CameraPanel.h */,
+				6445DB2F0F21DBF400353144 /* CameraPanel.m */,
+				64067AF90E978043006D9ED6 /* NikonWindow.h */,
+				647DA6B20F27955200FE7F66 /* NikonWindow.m */,
+				640EDA880E97C6E80049C46D /* CameraWindow.h */,
+				640EDA890E97C6E80049C46D /* CameraWindow.m */,
+				648F226C0F3D99DE00D33192 /* LiveViewImageView.h */,
+				648F226D0F3D99DE00D33192 /* LiveViewImageView.m */,
+			);
+			name = Window;
+			sourceTree = "<group>";
+		};
+		64D7FA4D0E980A15009D83FE /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				64D7F7FF0E97CFD2009D83FE /* NikonWindow.xib */,
+				64D7FA460E980A06009D83FE /* CameraWindow.xib */,
+			);
+			name = Window;
+			sourceTree = "<group>";
+		};
+		64D7FA5B0E980D01009D83FE /* CameraLib */ = {
+			isa = PBXGroup;
+			children = (
+				648A4A720E98304400BCDFE4 /* ICACamera.h */,
+				648A4A730E98304400BCDFE4 /* ICACamera.m */,
+				64EA88980F2B7B2900471F52 /* ICANikonCamera.h */,
+				64EA88990F2B7B2900471F52 /* ICANikonCamera.m */,
+				648A4A740E98304400BCDFE4 /* ICACameraController.h */,
+				648A4A750E98304400BCDFE4 /* ICACameraController.m */,
+			);
+			name = CameraLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* StudioTether */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "StudioTether" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				64BAE1850F38E328005DB4C7 /* CopyFiles */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				64AD5A750F3A3D0B009A233A /* Copy Files LightroomTether */,
+			);
+			buildRules = (
+				64A716CB0F3AF63F00207B6C /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = StudioTether;
+			productInstallPath = "$(HOME)/Applications";
+			productName = StudioTether;
+			productReference = 8D1107320486CEB800E47090 /* StudioTether.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "StudioTether" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* StudioTether */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* StudioTether */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				640679CD0E9581FF006D9ED6 /* StudioTether.icns in Resources */,
+				64D7F8000E97CFD2009D83FE /* NikonWindow.xib in Resources */,
+				64D7FA470E980A06009D83FE /* CameraWindow.xib in Resources */,
+				64A717260F3AFCC100207B6C /* StudioTether.sdef in Resources */,
+				6494993F0F3C4A82006F58C9 /* minimize.png in Resources */,
+				64FD60120F516F7B0040216B /* dsa_pub.pem in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A716EF0F3AF8D000207B6C /* System Events.app in Sources */,
+				64A716E60F3AF83100207B6C /* Adobe Lightroom 2.app in Sources */,
+				64A716D40F3AF70300207B6C /* System Preferences.app in Sources */,
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				6406793B0E957065006D9ED6 /* PreferencePanel.m in Sources */,
+				640ED96C0E97AF560049C46D /* CameraController.m in Sources */,
+				640EDA8A0E97C6E80049C46D /* CameraWindow.m in Sources */,
+				648A4A760E98304400BCDFE4 /* ICACamera.m in Sources */,
+				648A4A770E98304400BCDFE4 /* ICACameraController.m in Sources */,
+				6445DB300F21DBF400353144 /* CameraPanel.m in Sources */,
+				647DA6B30F27955200FE7F66 /* NikonWindow.m in Sources */,
+				647DA8A90F2AA35C00FE7F66 /* GreenPopupButton.m in Sources */,
+				647DA9610F2B4FC400FE7F66 /* ActivityLight.m in Sources */,
+				647DA97E0F2B52C800FE7F66 /* ShutterReleaseCell.m in Sources */,
+				64EA889A0F2B7B2900471F52 /* ICANikonCamera.m in Sources */,
+				64BAE2570F3A10A0005DB4C7 /* LightroomDragInstall.m in Sources */,
+				64AD5ADA0F3A5078009A233A /* LightroomInstall.m in Sources */,
+				64A717730F3B0B8B00207B6C /* ScriptCommand_Preferences.m in Sources */,
+				64A718600F3B263500207B6C /* ScriptCommand_Locked.m in Sources */,
+				648F226E0F3D99DE00D33192 /* LiveViewImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = StudioTether_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = StudioTether;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = StudioTether_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = StudioTether;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DEAD_CODE_STRIPPING = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "StudioTether" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "StudioTether" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

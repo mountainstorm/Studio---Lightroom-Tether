@@ -1,0 +1,22 @@
+#!/bin/sh
+
+retString=`osascript -e '
+on appIsRunning(appName)
+	tell application "System Events" to count (processes whose name is appName)
+end appIsRunning
+
+on run
+	set retVal to false
+	if appIsRunning("StudioTether") is not 0 then
+		tell application "StudioTether"
+			set retVal to «event StTrLock»
+		end tell
+	end if
+	return retVal
+end run
+'`
+
+if [ $retString == "false" ] ; then
+	exit 0
+fi
+exit 1
